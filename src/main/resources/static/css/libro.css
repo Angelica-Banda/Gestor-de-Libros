@@ -1,0 +1,39 @@
+/* Contenedor de las tarjetas */
+.l-destacados .card {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo de las imágenes */
+.l-destacados .card-img-top {
+    width: 90%;
+    height: 400px; /* Ajusta esta altura según sea necesario */
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor */
+}
+
+/* Estilo del cuerpo de la tarjeta */
+.l-destacados .card-body {
+    flex: 1 1 auto; /* Asegura que el cuerpo de la tarjeta ocupe el espacio restante */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo del pie de la tarjeta */
+.l-destacados .card-footer {
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo del botón */
+.l-destacados .btn {
+    margin-top: auto; /* Empuja el botón hacia el fondo de la tarjeta */
+    width: 100%;
+    text-align: center;
+}
+
+
+
